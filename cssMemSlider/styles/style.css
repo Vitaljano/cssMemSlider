@@ -31,7 +31,6 @@ body{
 	grid-area: slides;
 	overflow: hidden;
 	width: inherit;
-	border-radius: 1.25rem;
 }
 
 .slides {
