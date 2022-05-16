@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Mem Slider</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <input type="radio" name="point" id="slide1" checked>
+        <input type="radio" name="point" id="slide2">
+        <input type="radio" name="point" id="slide3">
+        <input type="radio" name="point" id="slide4">
+        <input type="radio" name="point" id="slide5">
+        <div class="slider">
+            <div class="slides slide1">
+                <img src="./assets/mem1.jpg" alt="Мемасик">
+            </div>
+            <div class="slides slide2">
+                <img src="./assets/mem2.jpg" alt="Мемасик">
+            </div>
+            <div class="slides slide3">
+                <img src="./assets/mem3.jpg" alt="Мемасик">
+            </div>
+            <div class="slides slide4">
+                <img src="./assets/mem4.jpg" alt="Мемасик">
+
+            </div>
+            <div class="slides slide5">
+                <img src="./assets/mem5.jpg" alt="Мемасик">
+
+            </div>
+        </div>
+        <div class="slider-text">
+            <p class="slide1-text">Все мы своего рода программисты</p>
+            <p class="slide2-text">Ну в топ 576 я попал</p>
+            <p class="slide3-text">Все любят котиков</p>
+            <p class="slide4-text">Think about it</p>
+            <p class="slide5-text">-After all this time? <br> - Always</p>
+        </div>
+        <div class="controls">
+            <label id="r1" for="slide1">
+                <span></span>
+            </label>
+            <label for="slide2">
+                <span></span>
+            </label>
+            <label for="slide3">
+                <span></span>
+            </label>
+            <label for="slide4">
+                <span></span>
+            </label>
+            <label for="slide5">
+                <span></span>
+            </label>
+        </div>
+    </div>
 </body>
 </html>
